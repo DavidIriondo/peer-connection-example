@@ -1,0 +1,48 @@
+<html lang = "en"> 
+   <head> 
+      <meta charset = "utf-8" /> 
+   </head>
+	
+   <body> 
+	<h2>SWIFTLINK CLIENT</h2>
+      <!--Login-->
+      <div> 
+         <input type = "text" id = "loginInput" /> 
+         <button id = "loginBtn">Login</button> 
+      </div> 
+      <!--Logout-->
+      <div> 
+         <input type = "text" id = "logoutInput" /> 
+         <button id = "logoutBtn">Logout</button> 
+      </div> 
+		<!--Establish connection-->
+      <div> 
+         <input type = "text" id = "otherUsernameInput" /> 
+         <button id = "connectToOtherUsernameBtn">Establish connection</button> 
+      </div> 
+		<!--Send text message-->
+      <div> 
+         <input type = "text" id = "msgInput" /> 
+         <button id = "sendMsgBtn">Send text message</button> 
+      </div>
+      <!--Send custom message-->
+      <div> 
+         <input type = "text" id = "customMsgInput" /> 
+         <button id = "sendCustomMsgBtn">Send raw message</button> 
+      </div>
+      <!--Send file-->
+      <div> 
+        <input type = "file" id = "fileInput" /> 
+        <button id = "sendFileBtn">Send file</button> 
+     </div> 
+     <br>
+     <!--Received messages-->
+     <div> 
+      <h4 id = "sendMsgBtn">Messages</h4>
+      <textarea id = "msgOutput" rows="5" cols="40"></textarea>  
+   </div>
+		
+      <script src = "connection.js"></script>
+   </body>
+	
+</html>
